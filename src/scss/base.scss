@@ -39,9 +39,12 @@ a {
     margin: 0 auto;
     object-fit: cover;
     padding: 20px;
+    width: 350px;
+    height: auto;
 }
 
 .header {
     display: block;
     border-bottom: 8px solid #fe53e1 !important;
+    width: 100%;
 }

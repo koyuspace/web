@@ -14,6 +14,13 @@
         "image": "kopimi.space_about"
     },
     {
+        "title": "SnakeEater96",
+        "subtitle": "Private user space",
+        "url": "https://snakeeater96.koyu.space",
+        "type": "image",
+        "image": "snakeeater"
+    },
+    {
         "title": "Mumble",
         "subtitle": "A Mumble server for voice chat",
         "url": "mumble://koyu.space",

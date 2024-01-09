@@ -1,0 +1,22 @@
+---
+import Footer from '../components/footer.astro';
+import Header from '../components/header.astro';
+import Layout from './base.astro';
+let title = "";
+if (Astro.props.title === undefined) {
+	title = Astro.props.frontmatter.title;
+} else {
+	title = Astro.props.title;
+}
+---
+
+<Layout title={title}>
+    <main>
+        <Header />
+        <div class="container">
+            <h1>{title}</h1>
+            <slot />
+        </div>
+        <Footer />
+    </main>
+</Layout>

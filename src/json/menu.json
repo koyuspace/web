@@ -1,0 +1,18 @@
+[
+    {
+        "url": "/status/",
+        "name": "Status"
+    },
+    {
+        "url": "https://dash.koyu.space/",
+        "name": "Services"
+    },
+    {
+        "url": "/users/",
+        "name": "Users"
+    },
+    {
+        "url": "/support/",
+        "name": "Support koyu.space"
+    }
+]

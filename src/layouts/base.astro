@@ -1,6 +1,10 @@
 ---
 import "../scss/index.scss";
 import "../fonts/urw-gothic/urw-gothic.css";
+let title = "koyu.space";
+if (Astro.props.title !== undefined) {
+    title = title+" - "+Astro.props.title;
+}
 ---
 
 <html lang="en">
@@ -9,7 +13,7 @@ import "../fonts/urw-gothic/urw-gothic.css";
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>koyu.space</title>
+		<title>{title}</title>
 	</head>
 	<body>
 		<slot />

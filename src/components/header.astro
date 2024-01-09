@@ -1,0 +1,16 @@
+---
+import menu from "../json/menu.json";
+---
+
+<a href="/" class="header">
+    <img src="/logo.svg" alt="Logo" class="logo" />
+</a>
+<nav>
+    <ul class="menu">
+        {menu.map((item) => (
+            <li><a href={`${item.url}`} target={item.url.startsWith("http") && item.url.includes("://") ? "target=\"_blank" : ""}>{item.name}</a></li>
+        ))}
+    </ul>
+    <hr>
+</nav>
+<br>

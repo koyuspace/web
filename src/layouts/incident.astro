@@ -1,0 +1,14 @@
+---
+import Layout from './page.astro';
+let title = "";
+if (Astro.props.title === undefined) {
+	title = Astro.props.frontmatter.title;
+} else {
+	title = Astro.props.title;
+}
+---
+
+<Layout title={title}>
+    <slot />
+    <p><a href="/status/">&larr; Back to all</a></p>
+</Layout>

@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "astro": "^4.4.1",
+    "remark": "^15.0.1",
+    "remark-external-links": "^9.0.1",
     "sass": "^1.71.0"
   }
 }

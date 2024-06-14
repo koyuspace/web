@@ -5,7 +5,7 @@ title: Services
 
 koyu.space runs the following services:
 
-* XMPP (open, register using your client)
+* [thehaj.space](https://thehaj.space) (Minecraft server)
 * [kopimi.space](https://kopimi.space)/Mastodon
 * E-Mail (internal)
 * [Bitwarden](https://vault.koyu.space) (open, on request)

@@ -10,5 +10,6 @@ koyu.space runs the following services:
 * E-Mail (internal)
 * [Bitwarden](https://vault.koyu.space) (open, on request)
 * [Litterbox](https://litterbox.koyu.space) (Mastodon client)
+* [Gemini](gemini://koyu.space) (Next-gen internet protocol)
 
 All those services come with free 24/7 support from koyu.space. Just email support@koyu.space if you need help.

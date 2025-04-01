@@ -8,10 +8,6 @@
         "name": "Services"
     },
     {
-        "url": "/users/",
-        "name": "Users"
-    },
-    {
         "url": "/support/",
         "name": "Support koyu.space"
     }
